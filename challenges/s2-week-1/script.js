@@ -1,5 +1,6 @@
 const hr = document.querySelector(".arrow__hours");
 const m = document.querySelector(".arrow__minutes");
+const s = document.querySelector(".circle__three");
 
 setInterval(() => {
   const time = new Date();
@@ -14,4 +15,6 @@ setInterval(() => {
 
   hr.style.transform = `rotate(${hoursRotation}deg)`;
   m.style.transform = `rotate(${minutesRotation}deg)`;
+  // s.style.transform +=  `rotate(${secRotation}deg)`
+  // );
 }, 1000);
