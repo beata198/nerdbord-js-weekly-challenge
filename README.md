@@ -1,5 +1,7 @@
 # Nerdbord JS Weekly Challenge
 
+1. O'clock live - https://beata198.github.io/nerdbord-js-weekly-challenge/
+
 Welcome to the Nerdbord JS Weekly Challenge! Each week, we'll be publishing a new JavaScript coding challenge in this repository. Each challenge is structured as a separate package, so you can choose which one you want to solve.
 
 ## Getting Started
