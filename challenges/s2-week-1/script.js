@@ -8,7 +8,7 @@ setInterval(() => {
   const minutes = time.getMinutes();
   const sec = time.getSeconds();
 
-  const hoursRotation = (30 * hours) / 2;
+  const hoursRotation = 30 * hours + minutes / 2;
   const minutesRotation = 6 * minutes;
   const secRotation = 6 * sec;
 
