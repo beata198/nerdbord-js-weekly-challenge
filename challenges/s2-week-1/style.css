@@ -46,7 +46,7 @@ p {
 
 .clock {
   position: relative;
-  /* animation: fade 5s linear; */
+  animation: fade 2s linear;
 }
 
 .circle {
@@ -71,6 +71,7 @@ p {
   height: 277.54px;
   position: absolute;
   top: 0;
+  animation: tusiCouple 60s linear infinite;
 }
 
 .arrows {
@@ -121,5 +122,35 @@ p {
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes tusiCouple {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  12.5% {
+    transform: translate(50px, 20px) rotate(-29deg);
+  }
+  25% {
+    transform: translate(85px, 80px) rotate(-84deg);
+  }
+  37.5% {
+    transform: translate(50px, 155px) rotate(-117deg);
+  }
+  50% {
+    transform: translate(0px, 170px) rotate(-160deg);
+  }
+  62.5% {
+    transform: translate(-50px, 155px) rotate(-204deg);
+  }
+  75% {
+    transform: translate(-85px, 80px) rotate(-297deg);
+  }
+  87.5% {
+    transform: translate(-50px, 20px) rotate(-320deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(-360deg);
   }
 }
